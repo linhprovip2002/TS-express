@@ -1,6 +1,7 @@
-{
+{  
   "compilerOptions": {
-    "target": "ES6",
+    "noImplicitAny": false,
+    "target": "es2016",
     "outDir": "./build/",
     "module": "commonjs",
     "strict": true,
@@ -8,6 +9,10 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    
   }
 }
